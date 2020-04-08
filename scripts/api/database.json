@@ -25,6 +25,44 @@
             "commonName": "Pansy",
             "color": "Violet"
         }
+    ],
+
+    "retailers": [
+        {
+            "id": 1,
+            "retailerName": "Nordic Buds",
+            "address": "151 Madison Avenue",
+            "city": "Duluth",
+            "state": "MN"
+        },
+        {
+            "id": 2,
+            "retailerName": "Metropolitan Bouquet",
+            "address": "100 Broadway",
+            "city": "New York",
+            "state": "NY"
+        },
+        {
+            "id": 3,
+            "retailerName": "Flower Power",
+            "address": "32 Hippie Way",
+            "city": "Boulder",
+            "state": "CO"
+        },
+        {
+            "id": 4,
+            "retailerName": "Mario's Shop",
+            "address": "1983 Nintendo Lane",
+            "city": "Mushroom Kingdom", 
+            "state": "VT"
+        },
+        {
+            "id": 5,
+            "retailerName": "Fiesta Flowers",
+            "address": "394 Ocean Drive",
+            "city": "Miami",
+            "state": "FL"
+        }
     ]
 }
         

@@ -1,6 +1,12 @@
-const eachRetailer = (retailerObject) => {
+const eachRetailer = (retailerObject, distributorObject) => {
     return  `
-    <li>${retailerObject.retailerName}: ${retailerObject.address}, ${retailerObject.city}, ${retailerObject.state}</li>
+    
+        <li>
+            <p>${retailerObject.retailerName}:</p>
+            <p>${retailerObject.address}, ${retailerObject.city}, ${retailerObject.state}</p> 
+            <p>Current Distributor Partner is ${distributorObject.distributorName}</p>
+        </li>
+
     `
 }
 

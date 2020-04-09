@@ -31,37 +31,176 @@
         {
             "id": 1,
             "retailerName": "Nordic Buds",
-            "address": "151 Madison Avenue",
+            "address": "157 Madison Avenue",
             "city": "Duluth",
-            "state": "MN"
+            "state": "MN",
+            "distributorId": 2
         },
         {
             "id": 2,
             "retailerName": "Metropolitan Bouquet",
             "address": "100 Broadway",
             "city": "New York",
-            "state": "NY"
+            "state": "NY",
+            "distributorId": 1
         },
         {
             "id": 3,
             "retailerName": "Flower Power",
             "address": "32 Hippie Way",
             "city": "Boulder",
-            "state": "CO"
+            "state": "CO",
+            "distributorId": 2
+        
         },
         {
             "id": 4,
             "retailerName": "Mario's Shop",
             "address": "1983 Nintendo Lane",
             "city": "Mushroom Kingdom", 
-            "state": "VT"
+            "state": "VT",
+            "distributorId": 1
         },
         {
             "id": 5,
             "retailerName": "Fiesta Flowers",
             "address": "394 Ocean Drive",
             "city": "Miami",
-            "state": "FL"
+            "state": "FL",
+            "distributorId": 3
+        }
+    ],
+
+    "distributors": [
+        {
+            "id": 1,
+            "distributorName": "Big Flower Distributors",
+            "address": "1080 Pine Drive",
+            "city": "Columbus",
+            "state": "OH"
+        },
+        {
+            "id": 2,
+            "distributorName": "Sunshine Distribution",
+            "address": "32 Main Street",
+            "city": "San Diego",
+            "state": "CA"
+        },
+        {
+            "id": 3,
+            "distributorName": "National Wholesale Florist",
+            "address": "101 Peachtree Street",
+            "city": "Atlanta",
+            "state": "GA"
+        }
+    ],
+
+    "nurseries": [
+        {
+            "id": 1,
+            "nurseyName": "Southern Nurseries"
+        },
+        {
+            "id": 2,
+            "nurseyName": "Baby Budders Nursery"
+        },
+        {
+            "id": 3,
+            "nurseyName": "San Fran Nursery & Landscape"
+        },
+        {
+            "id": 4,
+            "nurseyName": "Queens County Nursery"
+        },
+        {
+            "id": 5,
+            "nurseyName": "Boise Garden Center"
+        }
+    ],
+
+    "flowerNursery": [
+        {
+            "id": 1, 
+            "flowerId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 2, 
+            "flowerId": 1,
+            "nurseryId": 4
+        },
+        {
+            "id": 3,
+            "flowerId": 2,
+            "nurseryId": 1
+        },
+        {
+            "id": 4, 
+            "flowerId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 5,
+            "flowerId": 3,
+            "nurseryId": 1
+        },
+        {
+            "id": 6,
+            "flowerId": 3,
+            "nurseryId": 5 
+        },
+        {
+            "id": 7,
+            "flowerId": 4,
+            "nurseryId": 3
+        },
+        {
+            "id": 8,
+            "flowerId": 4,
+            "nurseryId": 4
+        },
+        {
+            "id": 9,
+            "flowerId": 5,
+            "nurseryId": 2
+        },
+        {
+            "id": 10,
+            "flowerId": 5,
+            "nurseryId": 5
+        }
+    ],
+    
+    "nurseryDistributor": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 5
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 1 
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 2
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 3
         }
     ]
 }

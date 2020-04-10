@@ -98,23 +98,23 @@
     "nurseries": [
         {
             "id": 1,
-            "nurseyName": "Southern Nurseries"
+            "nurseryName": "Southern Nurseries"
         },
         {
             "id": 2,
-            "nurseyName": "Baby Budders Nursery"
+            "nurseryName": "Baby Budders Nursery"
         },
         {
             "id": 3,
-            "nurseyName": "San Fran Nursery & Landscape"
+            "nurseryName": "San Fran Nursery & Landscape"
         },
         {
             "id": 4,
-            "nurseyName": "Queens County Nursery"
+            "nurseryName": "Queens County Nursery"
         },
         {
             "id": 5,
-            "nurseyName": "Boise Garden Center"
+            "nurseryName": "Boise Garden Center"
         }
     ],
 

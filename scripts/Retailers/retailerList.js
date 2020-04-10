@@ -42,12 +42,12 @@ const render = retailersToRender => {
                 return nurseries.find(nursery => nd.nurseryId === nursery.id)
             })
             
-                const  filteredFlowerRelationship = foundNurseries.map(nursery => {
+                const  flowerNurseryRelationship = foundNurseries.map(nursery => {
                     
                     return FNRelationship.filter(FNRelationship => FNRelationship.nurseryId === nursery.id)
                 }).flat()
 
-                const foundFlowers = filteredFlowerRelationship.map(fn => {
+                const foundFlowers = flowerNurseryRelationship.map(fn => {
 
                     return flowers.find(flower => fn.flowerId === flower.id)
                 })
